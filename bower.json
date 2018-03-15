@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-shadow-box",
+  "description": "Shadow box for sassui",
+  "main": [
+    "dist/webkit-sassui-shadow-box.css",
+    "dist/webkit-sassui-shadow-box.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "shadow-box"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

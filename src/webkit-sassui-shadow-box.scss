@@ -1,0 +1,22 @@
+/*webkit-sassui-shadow-box Start*/
+@import 'node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss';
+
+$webkit-sassui-shadow-box-deep-list:(1,2,3,4,5,6)!default;
+
+.webkit-sassui-shadow-box {
+  @each $i in $webkit-sassui-shadow-box-deep-list{
+    &[data-depth="#{$i}"]{
+      @extend .shadow-#{$i};
+      &[data-hover=true]{
+        transition: transform 0.3s;
+        transform: translateY(0);
+        &:hover{
+          transform: translateY(-#{$i+1}px);
+        }
+      }
+    }
+  }
+}
+
+
+/*webkit-sassui-shadow-box End*/

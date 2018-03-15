@@ -1,0 +1,11 @@
+@import "../dist/webkit-sassui-shadow-box.scss";
+body{
+  background: #f3f3f3;
+}
+.test-webkit-sassui-shadow-box{
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+  background: #fff;
+  box-sizing: border-box;
+}
