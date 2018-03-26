@@ -6,3 +6,6 @@
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui
+
+## bug:
++ [ ] twice import short-name
