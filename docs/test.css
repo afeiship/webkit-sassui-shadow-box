@@ -1,4 +1,3 @@
-/*webkit-sassui-shadow-box Start*/
 /*align Start*/
 .vat,
 .vat_ > * {
@@ -506,6 +505,7 @@
 }
 
 /* z-index end */
+/*webkit-sassui-shadow-box Start*/
 .webkit-sassui-shadow-box[data-depth="1"][data-hover=true] {
   transition: transform 0.3s;
   transform: translateY(0);
