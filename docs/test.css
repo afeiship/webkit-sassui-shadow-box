@@ -506,57 +506,57 @@
 
 /* z-index end */
 /*webkit-sassui-shadow-box Start*/
-.webkit-sassui-shadow-box[data-depth="1"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="1"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="1"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="1"][data-hoverable=true]:hover {
   transform: translateY(-2px);
 }
 
-.webkit-sassui-shadow-box[data-depth="2"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="2"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="2"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="2"][data-hoverable=true]:hover {
   transform: translateY(-3px);
 }
 
-.webkit-sassui-shadow-box[data-depth="3"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="3"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="3"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="3"][data-hoverable=true]:hover {
   transform: translateY(-4px);
 }
 
-.webkit-sassui-shadow-box[data-depth="4"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="4"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="4"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="4"][data-hoverable=true]:hover {
   transform: translateY(-5px);
 }
 
-.webkit-sassui-shadow-box[data-depth="5"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="5"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="5"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="5"][data-hoverable=true]:hover {
   transform: translateY(-6px);
 }
 
-.webkit-sassui-shadow-box[data-depth="6"][data-hover=true] {
+.webkit-sassui-shadow-box[data-depth="6"][data-hoverable=true] {
   transition: transform 0.3s;
   transform: translateY(0);
 }
 
-.webkit-sassui-shadow-box[data-depth="6"][data-hover=true]:hover {
+.webkit-sassui-shadow-box[data-depth="6"][data-hoverable=true]:hover {
   transform: translateY(-7px);
 }
 

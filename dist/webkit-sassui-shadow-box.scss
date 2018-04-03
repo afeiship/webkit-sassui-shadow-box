@@ -4,7 +4,7 @@ $webkit-sassui-shadow-box-deep-list:(1,2,3,4,5,6)!default;
   @each $i in $webkit-sassui-shadow-box-deep-list{
     &[data-depth="#{$i}"]{
       @extend .shadow-#{$i};
-      &[data-hover=true]{
+      &[data-hoverable=true]{
         transition: transform 0.3s;
         transform: translateY(0);
         &:hover{
